@@ -549,7 +549,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="(LNSP==false)" id="n54">
+         <transition guard="(LNSP==&#34;false&#34;)" id="n54">
             <name>
                <text>LNS(n54)</text>
             </name>
@@ -563,7 +563,7 @@
             <writeVariable>STAG</writeVariable>
             <writeVariable>LNSP</writeVariable>
          </transition>
-         <transition guard="(LNSP==true)" id="n55" invisible="true">
+         <transition guard="(LNSP==&#34;true&#34;)" id="n55" invisible="true">
             <name>
                <text>skip49</text>
             </name>
@@ -575,7 +575,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(S100BP==true)" id="n56" invisible="true">
+         <transition guard="(S100BP==&#34;true&#34;)" id="n56" invisible="true">
             <name>
                <text>skip11</text>
             </name>
@@ -612,7 +612,7 @@
             </graphics>
             <writeVariable>STAG</writeVariable>
          </transition>
-         <transition guard="(S100BP==false)" id="n59">
+         <transition guard="(S100BP==&#34;false&#34;)" id="n59">
             <name>
                <text>S100B(n59)</text>
             </name>
@@ -685,7 +685,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(((LNMD==true)&amp;&amp;(ISMD==true))||((LNMD==true)&amp;&amp;(ISMD==false)))" id="n65"
+         <transition guard="(((LNMD==&#34;true&#34;)&amp;&amp;(ISMD==&#34;true&#34;))||((LNMD==&#34;true&#34;)&amp;&amp;(ISMD==&#34;false&#34;)))" id="n65"
                      invisible="true">
             <name>
                <text>skip6</text>
@@ -698,7 +698,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="((LNMD==false)&amp;&amp;(ISMD==true))" id="n66" invisible="true">
+         <transition guard="((LNMD==&#34;false&#34;)&amp;&amp;(ISMD==&#34;true&#34;))" id="n66" invisible="true">
             <name>
                <text>skip24</text>
             </name>
@@ -734,7 +734,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="(SUME==true)" id="n69">
+         <transition guard="(SUME==&#34;true&#34;)" id="n69">
             <name>
                <text>EXC</text>
             </name>
@@ -746,7 +746,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="(SUME==false)" id="n70" invisible="true">
+         <transition guard="(SUME==&#34;false&#34;)" id="n70" invisible="true">
             <name>
                <text>skip18</text>
             </name>
@@ -770,7 +770,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(REPE==false)" id="n72">
+         <transition guard="(REPE==&#34;false&#34;)" id="n72">
             <name>
                <text>REE(n72)</text>
             </name>
@@ -783,7 +783,7 @@
             </graphics>
             <writeVariable>REST</writeVariable>
          </transition>
-         <transition guard="(REPE==true)" id="n73" invisible="true">
+         <transition guard="(REPE==&#34;true&#34;)" id="n73" invisible="true">
             <name>
                <text>skip12</text>
             </name>
@@ -914,7 +914,7 @@
             <writeVariable>CAER</writeVariable>
             <writeVariable>LYNM</writeVariable>
          </transition>
-         <transition guard="(((SCSN==true)||(MMDI&lt;=1))&amp;&amp;(STAG==&#34;IIC&#34;))" id="n82" invisible="true">
+         <transition guard="(((SCSN==&#34;true&#34;)||(MMDI&lt;=1))&amp;&amp;(STAG==&#34;IIC&#34;))" id="n82" invisible="true">
             <name>
                <text>skip44</text>
             </name>
@@ -926,7 +926,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(((SCSN==true)||(MMDI&lt;=1))&amp;&amp;((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;)))"
+         <transition guard="(((SCSN==&#34;true&#34;)||(MMDI&lt;=1))&amp;&amp;((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;)))"
                      id="n83"
                      invisible="true">
             <name>
@@ -952,7 +952,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(((ALN&gt;=3)||(CAER==true))||(LYNM&gt;3))" id="n85">
+         <transition guard="(((ALN&gt;=3)||(CAER==&#34;true&#34;))||(LYNM&gt;3))" id="n85">
             <name>
                <text>RATH(n85)</text>
             </name>
@@ -964,7 +964,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="(((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;((BVEM==true)||(BVKM==true)))"
+         <transition guard="(((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;((BVEM==&#34;true&#34;)||(BVKM==&#34;true&#34;)))"
                      id="n86">
             <name>
                <text>BMI</text>
@@ -977,7 +977,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="((((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;((BVEM==true)||(BVEM==false)))&amp;&amp;((BVKM==true)||(BVKM==false)))"
+         <transition guard="((((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;((BVEM==&#34;true&#34;)||(BVEM==&#34;false&#34;)))&amp;&amp;((BVKM==&#34;true&#34;)||(BVKM==&#34;false&#34;)))"
                      id="n87">
             <name>
                <text>APDA(n87)</text>
@@ -1016,7 +1016,7 @@
             <writeVariable>SULN</writeVariable>
             <writeVariable>LNSP</writeVariable>
          </transition>
-         <transition guard="((SMET==false)&amp;&amp;(STAG==&#34;IIC&#34;))" id="n90" invisible="true">
+         <transition guard="((SMET==&#34;false&#34;)&amp;&amp;(STAG==&#34;IIC&#34;))" id="n90" invisible="true">
             <name>
                <text>skip46</text>
             </name>
@@ -1028,7 +1028,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="((SMET==false)&amp;&amp;(TUTH&lt;1))" id="n91" invisible="true">
+         <transition guard="((SMET==&#34;false&#34;)&amp;&amp;(TUTH&lt;1))" id="n91" invisible="true">
             <name>
                <text>skip21</text>
             </name>
@@ -1040,7 +1040,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(SMET==true)" id="n92" invisible="true">
+         <transition guard="(SMET==&#34;true&#34;)" id="n92" invisible="true">
             <name>
                <text>skip25</text>
             </name>
@@ -1052,7 +1052,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(((SMET==false)&amp;&amp;(TUTH&gt;=1))||((((PAAG&lt;40)&amp;&amp;(MIRA==&#34;increased&#34;))&amp;&amp;(TUTH&gt;0.75))&amp;&amp;(TUTH&lt;1)))"
+         <transition guard="(((SMET==&#34;false&#34;)&amp;&amp;(TUTH&gt;=1))||((((PAAG&lt;40)&amp;&amp;(MIRA==&#34;increased&#34;))&amp;&amp;(TUTH&gt;0.75))&amp;&amp;(TUTH&lt;1)))"
                      id="n93"
                      invisible="true">
             <name>
@@ -1066,7 +1066,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(((ALN&gt;=3)||(CAER==true))||(LYNM&gt;3))" id="n94">
+         <transition guard="(((ALN&gt;=3)||(CAER==&#34;true&#34;))||(LYNM&gt;3))" id="n94">
             <name>
                <text>RATH(n94)</text>
             </name>
@@ -1078,7 +1078,7 @@
                <fill color="#FFFFFF"/>
             </graphics>
          </transition>
-         <transition guard="((((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;(BVEM==false))&amp;&amp;(BVKM==false))"
+         <transition guard="((((((STAG==&#34;IIIA&#34;)||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))&amp;&amp;(BVEM==&#34;false&#34;))&amp;&amp;(BVKM==&#34;false&#34;))"
                      id="n95">
             <name>
                <text>APDA(n95)</text>
@@ -1134,7 +1134,7 @@
             <writeVariable>LNMD</writeVariable>
             <writeVariable>SCSN</writeVariable>
          </transition>
-         <transition guard="((STAG!=&#34;IV&#34;)&amp;&amp;(PLNM==false))" id="n99" invisible="true">
+         <transition guard="((STAG!=&#34;IV&#34;)&amp;&amp;(PLNM==&#34;false&#34;))" id="n99" invisible="true">
             <name>
                <text>skip36</text>
             </name>
@@ -1158,7 +1158,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(PLNM==true)" id="n101" invisible="true">
+         <transition guard="(PLNM==&#34;true&#34;)" id="n101" invisible="true">
             <name>
                <text>skip35</text>
             </name>
@@ -1170,7 +1170,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(SULN==false)" id="n102" invisible="true">
+         <transition guard="(SULN==&#34;false&#34;)" id="n102" invisible="true">
             <name>
                <text>skip28</text>
             </name>
@@ -1182,7 +1182,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(SULN==true)" id="n103" invisible="true">
+         <transition guard="(SULN==&#34;true&#34;)" id="n103" invisible="true">
             <name>
                <text>skip27</text>
             </name>
@@ -1245,7 +1245,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(MELA==true)" id="n108">
+         <transition guard="(MELA==&#34;true&#34;)" id="n108">
             <name>
                <text>SCE</text>
             </name>
@@ -1261,7 +1261,7 @@
             <writeVariable>REPE</writeVariable>
             <writeVariable>SMET</writeVariable>
          </transition>
-         <transition guard="(MELA==false)" id="n109" invisible="true">
+         <transition guard="(MELA==&#34;false&#34;)" id="n109" invisible="true">
             <name>
                <text>skip19</text>
             </name>
@@ -1345,7 +1345,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(LNSP==true)" id="n116" invisible="true">
+         <transition guard="(LNSP==&#34;true&#34;)" id="n116" invisible="true">
             <name>
                <text>skip33</text>
             </name>
@@ -1357,7 +1357,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(LNSP==false)" id="n117">
+         <transition guard="(LNSP==&#34;false&#34;)" id="n117">
             <name>
                <text>LNS(n117)</text>
             </name>
@@ -1448,7 +1448,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(MECO==false)" id="n124" invisible="true">
+         <transition guard="(MECO==&#34;false&#34;)" id="n124" invisible="true">
             <name>
                <text>skip39</text>
             </name>
@@ -1460,7 +1460,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="((((((MECO==true)&amp;&amp;(STAG==&#34;IIC&#34;))||(STAG==&#34;IIIA&#34;))||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))"
+         <transition guard="((((((MECO==&#34;true&#34;)&amp;&amp;(STAG==&#34;IIC&#34;))||(STAG==&#34;IIIA&#34;))||(STAG==&#34;IIIB&#34;))||(STAG==&#34;IIIC&#34;))||(STAG==&#34;IIID&#34;))"
                      id="n125"
                      invisible="true">
             <name>
@@ -1474,7 +1474,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(SMET==false)" id="n126" invisible="true">
+         <transition guard="(SMET==&#34;false&#34;)" id="n126" invisible="true">
             <name>
                <text>skip41</text>
             </name>
@@ -1486,7 +1486,7 @@
                <dimension x="15.0" y="15.0"/>
             </graphics>
          </transition>
-         <transition guard="(SMET==true)" id="n127" invisible="true">
+         <transition guard="(SMET==&#34;true&#34;)" id="n127" invisible="true">
             <name>
                <text>skip40</text>
             </name>
@@ -3126,53 +3126,53 @@
             </place>
          </marking>
       </finalmarkings>
-      <variables>
-         <variable type="java.lang.Double">
+       <variables>
+         <variable maxValue="100" minValue="0" type="java.lang.Double">
             <name>MMDI</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Long">
+         <variable maxValue="100" minValue="0" type="java.lang.Long">
             <name>ALN</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>SULN</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>SCSN</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>REPE</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Double">
+         <variable maxValue="100" minValue="0" type="java.lang.Double">
             <name>RTTH</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Double">
+         <variable maxValue="100" minValue="0" type="java.lang.Double">
             <name>TUTH</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>CAER</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>SUME</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>PLNM</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
@@ -3182,7 +3182,7 @@
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>MECO</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
@@ -3192,27 +3192,27 @@
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>BVEM</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>ISMD</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>S100BP</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>BVKM</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>MELA</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
@@ -3222,7 +3222,7 @@
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Double">
+         <variable maxValue="100" minValue="0" type="java.lang.Double">
             <name>LYNM</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
@@ -3232,12 +3232,12 @@
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>SMET</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Long">
+         <variable maxValue="100" minValue="0" type="java.lang.Long">
             <name>PAAG</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
@@ -3247,12 +3247,12 @@
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>LNMD</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
          </variable>
-         <variable type="java.lang.Boolean">
+         <variable type="java.lang.String">
             <name>LNSP</name>
             <position x="0" y="0"/>
             <dimension height="50" width="50"/>
