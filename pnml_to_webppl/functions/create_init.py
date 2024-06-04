@@ -1,8 +1,7 @@
 def init_global_information(function_str, verbose):
-    if verbose:
-        function_str += f"globalStore.printTransitions = true;\n\n"
-        function_str += f"globalStore.logState = true;\n\n"
-        function_str += f"globalStore.countEnabled = 0;\n\n"
+
+    function_str += f"globalStore.countEnabled = 0;\n"
+    function_str += f'globalStore.trace = "";\n'
 
     return function_str
 

@@ -13,7 +13,7 @@ def string_to_long(dpn):
 
 
 def _replace_in_guards(dpn,var, var_values):
-    reg_pattern = "{var}\s*{op}\s*[\',\"]{val}[\',\"]"
+    reg_pattern = r"{var}\s*{op}\s*[\',\"]{val}[\',\"]"
     repl_pattern = "{var}{op}{val}"
     vars = [var,var+"\'"]
     ops = ["==","!="]
