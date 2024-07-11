@@ -1,5 +1,5 @@
-# PNML to WebPPL
-This tool provides an efficient way to convert Petri Net Markup Language (PNML) files into WebPPL (Probabilistic Programming Language) scripts. It aims to facilitate the analysis and simulation of data-aware petri nets defined in PNML through the powerful inference capabilities of WebPPL. Also this tool can generate valid XES event logs out of a WebPPL file. 
+# DPN PNML to WebPPL
+This tool provides an efficient way to convert Petri Net Markup Language (PNML) files representing data Petri nets (DPNs) into WebPPL (Probabilistic Programming Language) scripts. It aims to facilitate the analysis and simulation of data-aware petri nets defined in PNML through the powerful inference capabilities of WebPPL. Also this tool can generate valid XES event logs out of a WebPPL file. 
 
 ## Using Docker
 
