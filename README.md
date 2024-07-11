@@ -1,4 +1,4 @@
-# DPN PNML to WebPPL
+# Data Petri nets to WebPPL
 This tool provides an efficient way to convert Petri Net Markup Language (PNML) files representing data Petri nets (DPNs) into WebPPL (Probabilistic Programming Language) scripts. It aims to facilitate the analysis and simulation of data-aware petri nets defined in PNML through the powerful inference capabilities of WebPPL. Also this tool can generate valid XES event logs out of a WebPPL file. 
 
 ## Using Docker
@@ -30,15 +30,13 @@ cat examples/xes_files/simple_auction.xes
 To exit the docker container, it suffices to run `exit`.
 
 ## Installation
-To use the PNML to WebPPL Converter, ensure that you have Python 3.x installed on your system. Follow these steps to set up the converter:
+To use the DPN to WebPPL Converter, ensure that you have Python 3.x installed on your system. Follow these steps to set up the converter:
 
 1. Download and install Node.js (which includes npm) from the official Node.js website (https://nodejs.org/en). Choose the LTS (Long Term Support) version for the most stable and supported setup. After installation, you can verify that Node.js and npm are correctly installed by running the following commands in your command line:
 ```bash
 node -v
 npm -v
 ```
-
-
 
 2. Once Node.js and npm are installed, you can install WebPPL globally using npm. You can install WebPPL by following the instructions. 
 ```bash
@@ -59,7 +57,6 @@ cd <repository-name>
 ```bash
 pip install -r requirements.txt
 ```
-
 
 
 
